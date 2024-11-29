@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>YourMerchandising - Brochure</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			@page {
+				size: A4;
+				margin: 0;
+			}
+			.a4-page {
+				width: 210mm;
+				height: 297mm;
+				margin: 20px auto;
+				background: white;
+				box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+				padding: 15mm; /* Aumentato il padding per margini di sicurezza */
+				position: relative;
+				overflow: hidden;
+			}
+			body {
+				background: #f0f0f0;
+				font-family: "Inter", sans-serif;
+			}
+			.tech-gradient {
+				background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+			}
+			@media print {
+				body {
+					background: none;
+				}
+				.a4-page {
+					margin: 0;
+					box-shadow: none;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a4-page">
+			<!-- Header Section with Gradient -->
+			<div class="tech-gradient text-white p-3 rounded-xl mb-4">
+				<div class="flex justify-between items-start">
+					<div>
+						<img
+							src="/api/placeholder/150/50"
+							alt="YourMerchandising Logo"
+							class="mb-3"
+						/>
+						<h1 class="text-3xl font-bold mb-2">YOURMERCHANDISING</h1>
+						<h2 class="text-lg mb-3">
+							L'Excellence du Merchandising d'Entreprise en France
+						</h2>
+					</div>
+					<div>
+						<img
+							src="/api/placeholder/80/80"
+							alt="Certifications"
+							class="rounded-lg"
+						/>
+					</div>
+				</div>
+
+				<div class="mt-4">
+					<p class="text-base text-sm">
+						Dans un monde où l'identité de marque devient cruciale,
+						YourMerchandising s'est imposé comme le partenaire innovant des
+						entreprises qui cherchent à transformer leurs produits promotionnels
+						en véritables vecteurs d'expérience de marque.
+					</p>
+				</div>
+			</div>
+
+			<!-- KPI Section -->
+			<div class="grid grid-cols-4 gap-3 mb-4">
+				<div class="bg-gray-50 p-3 rounded-xl text-center">
+					<div class="text-xl font-bold text-blue-900">+1000</div>
+					<div class="text-xs text-gray-600">Événements</div>
+				</div>
+				<div class="bg-gray-50 p-3 rounded-xl text-center">
+					<div class="text-xl font-bold text-blue-900">10K+</div>
+					<div class="text-xs text-gray-600">Produits</div>
+				</div>
+				<div class="bg-gray-50 p-3 rounded-xl text-center">
+					<div class="text-xl font-bold text-blue-900">15+</div>
+					<div class="text-xs text-gray-600">Années</div>
+				</div>
+				<div class="bg-gray-50 p-3 rounded-xl text-center">
+					<div class="text-xl font-bold text-blue-900">48h</div>
+					<div class="text-xs text-gray-600">Livraison</div>
+				</div>
+			</div>
+
+			<!-- Notre Expertise -->
+			<div class="bg-gray-50 p-3 rounded-xl mb-4">
+				<h2 class="text-xl font-bold text-blue-900 mb-3">Notre Expertise</h2>
+				<p class="mb-2 text-sm text-gray-700">
+					YourMerchandising représente l'alliance parfaite entre innovation
+					technologique et expertise en merchandising d'entreprise. Née de
+					l'expérience d'UPSYSTEMS S.p.A., notre plateforme combine les
+					dernières avancées technologiques avec une profonde compréhension des
+					besoins des entreprises modernes.
+				</p>
+				<p class="text-sm text-gray-700">
+					Notre expertise s'est construite au fil de plus de 15 années
+					d'expérience, enrichie par des investissements constants en recherche
+					et développement.
+				</p>
+				<p class="text-sm text-gray-700">
+					Cette expertise unique nous permet aujourd'hui d'accompagner aussi
+					bien les grandes entreprises que les PME, les institutions académiques
+					ou les organisations événementielles dans leurs projets de
+					merchandising personnalisé.
+				</p>
+			</div>
+
+			<!-- Solutions par événement -->
+			<div class="tech-gradient text-white p-6 rounded-xl">
+				<h2 class="text-2xl font-bold mb-4">Solutions pour Chaque Occasion</h2>
+				<p class="text-sm mb-4">
+					Que vous soyez une startup innovante, une grande entreprise, une
+					institution académique ou un organisateur d'événements, nous adaptons
+					notre offre à vos exigences particulières pour créer une expérience de
+					marque mémorable.
+				</p>
+				<div class="grid grid-cols-2 gap-3">
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h3 class="text-lg font-bold mb-3">Événements d'Entreprise</h3>
+						<div class="grid grid-cols-2 gap-3">
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Séminaires</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Conférences Tech</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Team Building</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Salons Pro</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Assemblées Annuelles</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Forums d'Innovation</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Lancements Produits</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Formations Internes</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h3 class="text-lg font-bold mb-3">Solutions Sectorielles</h3>
+						<div class="grid grid-cols-2 gap-2">
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Universités</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Tech & Startups</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Sport & Loisirs</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Secteur Médical</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Finance & Banque</span>
+								</div>
+							</div>
+							<div class="text-xs">
+								<div class="flex items-center space-x-2">
+									<div class="w-1 h-1 bg-white rounded-full"></div>
+									<span>Industries</span>
+								</div>
+							</div>
+						</div>
+						<div class="text-xs">
+							<div class="flex items-center space-x-2">
+								<div class="w-1 h-1 bg-white rounded-full"></div>
+								<span>Retail & E-commerce</span>
+							</div>
+						</div>
+						<div class="text-xs">
+							<div class="flex items-center space-x-2">
+								<div class="w-1 h-1 bg-white rounded-full"></div>
+								<span>Gouvernement & Secteur Public</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+		<hr />
+		<!--          Seconda Pagina          -->
+		<div class="a4-page">
+			<!-- Plateforme Section -->
+			<div class="tech-gradient text-white p-4 rounded-xl mb-5">
+				<h2 class="text-2xl font-bold mb-4">
+					Une Plateforme Technologique Innovante
+				</h2>
+				<div class="grid grid-cols-2 gap-5">
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h3 class="text-lg font-bold mb-3">Visual Commerce</h3>
+						<p class="text-sm mb-3">
+							Notre configurateur 3D permet une visualisation en temps réel des
+							personnalisations, offrant une expérience utilisateur
+							incomparable.
+						</p>
+						<ul class="text-xs space-y-2">
+							<li>• Visualisation 3D en temps réel</li>
+							<li>• Personnalisation dynamique</li>
+							<li>• Interface intuitive</li>
+							<li>• Preview instantanée</li>
+						</ul>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h3 class="text-lg font-bold mb-3">Réalité Augmentée</h3>
+						<p class="text-sm mb-3">
+							Projetez les produits dans votre environnement réel avant même
+							leur fabrication, pour une expérience d'achat révolutionnaire.
+						</p>
+						<ul class="text-xs space-y-2">
+							<li>• Projection en environnement réel</li>
+							<li>• Expérience interactive</li>
+							<li>• Visualisation à l'échelle</li>
+							<li>• Sans application requise</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Catalogue Section -->
+			<div class="bg-gray-50 p-6 rounded-xl mb-5">
+				<h2 class="text-2xl font-bold text-blue-900 mb-4">
+					Un Catalogue Exhaustif et Éco-responsable
+				</h2>
+				<p class="text-sm mb-4">
+					Plus de 10 000 produits soigneusement sélectionnés pour répondre à
+					tous vos besoins, avec un engagement fort pour la durabilité et la
+					qualité.
+				</p>
+
+				<div class="grid grid-cols-3 gap-5">
+					<div class="p-4 bg-white rounded-lg">
+						<h3 class="text-lg font-bold text-blue-900 mb-3">
+							Textile Premium
+						</h3>
+						<ul class="text-xs space-y-2 text-gray-600">
+							<li>• T-shirts et polos qualité</li>
+							<li>• Sweats et vestes</li>
+							<li>• Accessoires textiles</li>
+							<li>• Matériaux durables</li>
+						</ul>
+					</div>
+
+					<div class="p-4 bg-white rounded-lg">
+						<h3 class="text-lg font-bold text-blue-900 mb-3">
+							Accessoires Tech
+						</h3>
+						<ul class="text-xs space-y-2 text-gray-600">
+							<li>• Gadgets connectés</li>
+							<li>• Accessoires de bureau</li>
+							<li>• Solutions de charge</li>
+							<li>• Innovations digitales</li>
+						</ul>
+					</div>
+
+					<div class="p-4 bg-white rounded-lg">
+						<h3 class="text-lg font-bold text-blue-900 mb-3">
+							Éco-responsable
+						</h3>
+						<ul class="text-xs space-y-2 text-gray-600">
+							<li>• Matériaux recyclés</li>
+							<li>• Production durable</li>
+							<li>• Emballages écologiques</li>
+							<li>• Impact minimal</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Solutions Section -->
+			<div class="tech-gradient text-white p-6 rounded-xl">
+				<h2 class="text-2xl font-bold mb-4">Solutions Complètes</h2>
+				<div class="grid grid-cols-3 gap-5">
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h4 class="text-lg font-bold mb-3">Production</h4>
+						<ul class="text-xs space-y-2">
+							<li>• Zéro stock</li>
+							<li>• Fabrication rapide</li>
+							<li>• Contrôle qualité</li>
+						</ul>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h4 class="text-lg font-bold mb-3">Service</h4>
+						<ul class="text-xs space-y-2">
+							<li>• Manager dédié</li>
+							<li>• Support continu</li>
+							<li>• Formation incluse</li>
+						</ul>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h4 class="text-lg font-bold mb-3">Logistique</h4>
+						<ul class="text-xs space-y-2">
+							<li>• Livraison 24-48h</li>
+							<li>• Suivi temps réel</li>
+							<li>• Service retours</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+		<hr />
+		<!--        Terza Pagina        -->
+		<div class="a4-page">
+			<!-- Service Section -->
+			<div class="tech-gradient text-white p-3 rounded-xl mb-4">
+				<h2 class="text-2xl font-bold mb-4">
+					Un Service Complet et Sur Mesure
+				</h2>
+				<h3 class="text-lg font-bold mb-3">
+					Une Flexibilité Sans Limite dans la Personnalisation
+				</h3>
+				<p class="text-sm mb-4">
+					Notre philosophie repose sur une adaptabilité totale aux besoins
+					spécifiques de chaque client. Que vous soyez une startup innovante
+					cherchant à créer une identité forte, une grande entreprise
+					nécessitant des solutions logistiques complexes, ou une université
+					souhaitant développer sa marque, nous adaptons notre offre à vos
+					exigences particulières.
+				</p>
+				<div class="grid grid-cols-3 gap-5">
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h3 class="text-l font-bold mb-3">Personnalisation</h3>
+						<ul class="text-xs space-y-2">
+							<li>• Adaptation des quantités</li>
+							<li>• Choix des matériaux</li>
+							<li>• Personnalisation graphique illimitée</li>
+							<li>• Options de co-branding</li>
+							<li>• Collections exclusives</li>
+						</ul>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h3 class="text-l font-bold mb-3">Support</h3>
+						<ul class="text-xs space-y-2">
+							<li>• Conseil en design</li>
+							<li>• Support technique</li>
+							<li>• Adaptation aux chartes graphiques</li>
+							<li>• Formation sur mesure</li>
+							<li>• Suivi personnalisé</li>
+						</ul>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg">
+						<h3 class="text-l font-bold mb-3">Analytics</h3>
+						<ul class="text-xs space-y-2">
+							<li>• Dashboard temps réel</li>
+							<li>• KPIs personnalisables</li>
+							<li>• Reporting automatisé</li>
+							<li>• Optimisation ROI</li>
+							<li>• Scalabilité</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Marques Partenaires Section -->
+			<div class="bg-gray-50 p-3 rounded-xl mb-4">
+				<h3 class="text-xl font-bold text-blue-900 mb-4">
+					Nos Marques Partenaires
+				</h3>
+				<div class="grid grid-cols-5 gap-5">
+					<div class="bg-white p-4 rounded-g text-center">
+						<img
+							src="/api/placeholder/60/60"
+							alt="CamelBak"
+							class="mx-auto mb-2"
+						/>
+						<div class="text-sm font-bold text-blue-900">CamelBak</div>
+					</div>
+					<div class="bg-white p-4 rounded-g text-center">
+						<img
+							src="/api/placeholder/60/60"
+							alt="Moleskine"
+							class="mx-auto mb-2"
+						/>
+						<div class="text-sm font-bold text-blue-900">Moleskine</div>
+					</div>
+					<div class="bg-white p-4 rounded-g text-center">
+						<img
+							src="/api/placeholder/60/60"
+							alt="Parker"
+							class="mx-auto mb-2"
+						/>
+						<div class="text-sm font-bold text-blue-900">Parker</div>
+					</div>
+					<div class="bg-white p-4 rounded-g text-center">
+						<img
+							src="/api/placeholder/60/60"
+							alt="Stanley"
+							class="mx-auto mb-2"
+						/>
+						<div class="text-sm font-bold text-blue-900">Stanley</div>
+					</div>
+					<div class="bg-white p-4 rounded-g text-center">
+						<img
+							src="/api/placeholder/60/60"
+							alt="Ocean Bottle"
+							class="mx-auto mb-2"
+						/>
+						<div class="text-sm font-bold text-blue-900">Ocean Bottle</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Process Section -->
+			<div class="tech-gradient text-white p-3 rounded-xl mb-3">
+				<h2 class="text-xl font-bold mb-4">Notre Processus d'Excellence</h2>
+				<div class="grid grid-cols-4 gap-5">
+					<div class="bg-white/10 p-4 rounded-lg text-center">
+						<div class="text-l font-bold mb-2">1. Consultation</div>
+						<p class="text-xs">Analyse de vos besoins et objectifs</p>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg text-center">
+						<div class="text-l font-bold mb-2">2. Design</div>
+						<p class="text-xs">Création et personnalisation</p>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg text-center">
+						<div class="text-l font-bold mb-2">3. Production</div>
+						<p class="text-xs">Fabrication sur mesure</p>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg text-center">
+						<div class="text-l font-bold mb-2">4. Livraison</div>
+						<p class="text-xs">Distribution rapide et suivie</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Engagement Durable -->
+			<div class="tech-gradient text-white p-5 rounded-xl">
+				<div class="grid grid-cols-2 gap-5">
+					<div>
+						<h3 class="text-lg font-bold mb-3">Notre Engagement Durable</h3>
+						<ul class="space-y-1 text-sm">
+							<li>• Production à la demande - zéro gaspillage</li>
+							<li>• Matériaux recyclés et recyclables</li>
+							<li>• Emballages eco-responsables</li>
+							<li>• Objectif 2030 : zéro plastique vierge</li>
+						</ul>
+					</div>
+					<div class="grid grid-cols-2 gap-2">
+						<div class="bg-white/10 p-2 rounded-lg text-center">
+							<div class="text-lg font-bold">100%</div>
+							<div class="text-xs">Production à la demande</div>
+						</div>
+						<div class="bg-white/10 p-2 rounded-lg text-center">
+							<div class="text-lg font-bold">-40%</div>
+							<div class="text-xs">Impact carbone</div>
+						</div>
+						<div class="bg-white/10 p-2 rounded-lg text-center">
+							<div class="text-lg font-bold">80%</div>
+							<div class="text-xs">Matériaux recyclés</div>
+						</div>
+						<div class="bg-white/10 p-2 rounded-lg text-center">
+							<div class="text-lg font-bold">0%</div>
+							<div class="text-xs">Déchets plastiques</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+		<hr />
+		<!--        Quarta Pagina        -->
+		<div class="a4-page">
+			<!-- Distinction Section -->
+			<div class="bg-gray-50 p-3 rounded-xl mb-5">
+				<h2 class="text-2xl font-bold text-blue-900 mb-4">Notre Différence</h2>
+				<p class="text-sm text-gray-700">
+					Ce qui nous distingue est notre capacité à proposer une solution
+					véritablement complète, depuis la conception jusqu'à la livraison, en
+					passant par la production et la gestion logistique. Notre approche
+					"full-service" libère nos clients de toutes les complexités
+					opérationnelles, leur permettant de se concentrer sur leur cœur de
+					métier.
+				</p>
+			</div>
+
+			<!-- Case Studies Section -->
+			<div class="tech-gradient text-white p-3 rounded-xl mb-5">
+				<h2 class="text-xl font-bold mb-4">Ils Nous Font Confiance</h2>
+				<div class="grid grid-cols-2 gap-5">
+					<div class="bg-white/10 p-4 rounded-lg">
+						<div class="text-sm text-white/70 mb-2">Case Study</div>
+						<h3 class="text-l font-bold mb-3">
+							POLIMI Graduate School of Management
+						</h3>
+						<p class="text-sm mb-4">
+							Solution e-commerce complète avec personnalisation avancée.
+						</p>
+						<div class="grid grid-cols-2 gap-4">
+							<div class="bg-white/10 p-3 rounded-lg text-center">
+								<div class="text-l font-bold">100%</div>
+								<div class="text-xs">Personnalisation</div>
+							</div>
+							<div class="bg-white/10 p-3 rounded-lg text-center">
+								<div class="text-l font-bold">24h</div>
+								<div class="text-xs">Délai Production</div>
+							</div>
+						</div>
+					</div>
+					<div class="bg-white/10 p-4 rounded-lg">
+						<div class="text-sm text-white/70 mb-2">Résultats</div>
+						<h3 class="text-l font-bold mb-3">
+							Genoa Cricket and Football Club
+						</h3>
+						<p class="text-sm mb-4">
+							Croissance exceptionnelle des ventes de merchandising.
+						</p>
+						<div class="grid grid-cols-2 gap-4">
+							<div class="bg-white/10 p-3 rounded-lg text-center">
+								<div class="text-l font-bold">+300%</div>
+								<div class="text-xs">Croissance Ventes</div>
+							</div>
+							<div class="bg-white/10 p-3 rounded-lg text-center">
+								<div class="text-l font-bold">+20%</div>
+								<div class="text-xs">Panier Moyen</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Impact Section -->
+			<div class="bg-gray-50 p-3 rounded-xl mb-3">
+				<h3 class="text-xl font-bold text-blue-900 mb-4 text-center">
+					Notre Impact en Chiffres
+				</h3>
+				<div class="grid grid-cols-4 gap-5">
+					<div class="bg-white p-4 rounded-lg text-center">
+						<div class="text-l font-bold text-blue-900">500+</div>
+						<div class="text-sm">Clients Actifs</div>
+					</div>
+					<div class="bg-white p-4 rounded-lg text-center">
+						<div class="text-l font-bold text-blue-900">10k+</div>
+						<div class="text-sm">Produits</div>
+					</div>
+					<div class="bg-white p-4 rounded-lg text-center">
+						<div class="text-l font-bold text-blue-900">99%</div>
+						<div class="text-sm">Satisfaction Client</div>
+					</div>
+					<div class="bg-white p-4 rounded-lg text-center">
+						<div class="text-l font-bold text-blue-900">24/48h</div>
+						<div class="text-sm">Délai Livraison</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact Section -->
+			<div class="tech-gradient text-white p-3 rounded-xl">
+				<h2 class="text-xl font-bold mb-4">
+					Transformez Votre Vision en Réalité
+				</h2>
+				<div class="grid grid-cols-2 gap-5">
+					<div>
+						<h3 class="text-l font-bold mb-4">Contactez-nous</h3>
+						<div class="space-y-3">
+							<div>
+								<div class="text-sm text-white/70">Téléphone</div>
+								<div class="text-l">0800 XXX XXX</div>
+							</div>
+							<div>
+								<div class="text-sm text-white/70">Email</div>
+								<div class="text-l">yourmerchandising@upcommerce.com</div>
+							</div>
+							<div>
+								<div class="text-sm text-white/70">Web</div>
+								<div class="text-l">www.yourmerchandising.fr</div>
+							</div>
+							<div>
+								<div class="text-sm text-white/70">Horaires</div>
+								<div class="text-l">Lun - Ven : 9h - 18h</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex items-center justify-center">
+						<img
+							src="/api/placeholder/150/150"
+							alt="QR Code"
+							class="rounded-lg bg-white/10 p-2"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
